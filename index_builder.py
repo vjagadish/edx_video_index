@@ -38,7 +38,7 @@ class IndexBuilder:
            		yield os.path.abspath(os.path.join(dirpath, f))
 
 	def getMinutes(self,word):
-		return self.index[input]	
+		return self.index[word]	
 
 def main():		
 	i = IndexBuilder('/Users/jag/Downloads/Stanford medstats')
